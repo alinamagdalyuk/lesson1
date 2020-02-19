@@ -9,5 +9,3 @@ def discounted(price, discount, max_discount=50):
 
 product = {'name': 'Samsung Galaxy S10', 'stock': 8, 'price': 50000.0, 'discount': 55}
 
-product['with_discount'] = discounted(product['price'], product['discount'], max_discount=80)
-print(product)
